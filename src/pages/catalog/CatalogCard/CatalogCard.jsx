@@ -6,7 +6,7 @@ function CatalogCard({product, addProduct, addedId}) {
         <div className={`catalogCard ${addedId === product.id ? "shake" : ""}`}>
             <img
                 className="catalogCard__image"
-                src={`/public/products/${product.images[1]}`}
+                src={`/products/${product.images[1]}`}
                 alt={product.title}
             />
 

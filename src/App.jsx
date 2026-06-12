@@ -68,8 +68,10 @@ function App() {
 
     function addProduct(product) {
         if (navigator.vibrate) {
-            navigator.vibrate(30);
+            navigator.vibrate(100);
         }
+
+        console.log("vibrate" in navigator);
 
         setCart((prev) => {
             const exists = prev.find(item => item.id === product.id);

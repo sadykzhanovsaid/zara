@@ -19,7 +19,7 @@ function CartCard({
         <div className="cartCard">
             <img
                 className="cartCard__image"
-                src={`/public/products/${product.images[4]}`}
+                src={`/products/${product.images[4]}`}
                 alt={product.title}
             />
 

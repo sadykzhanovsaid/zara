@@ -89,6 +89,24 @@ export const products = [
             "streaming shirt with an abstract print/6.png",
         ]
     },
+    {
+        id: 6,
+        title: "Flowy fit shirt with an abstract print.",
+        description: "Loose-fit shirt made from viscose, lyocell, and 18% linen. Features a camp collar and short sleeves. Side slits at the hem. Button-up front fastening.",
+        category: "shirt",
+        gender: "man",
+        price: 39.95,
+        colors: ["Shades of Blue"],
+        sizes: ["S", "M", "L", "XL"],
+        images: [
+            "flowy fit shirt with an abstract prinе/1.jpg",
+            "flowy fit shirt with an abstract prinе/2.jpg",
+            "flowy fit shirt with an abstract prinе/3.jpg",
+            "flowy fit shirt with an abstract prinе/4.jpg",
+            "flowy fit shirt with an abstract prinе/5.jpg",
+            "flowy fit shirt with an abstract prinе/6.png",
+        ]
+    },
 ]
 
 export const productsHero = [
