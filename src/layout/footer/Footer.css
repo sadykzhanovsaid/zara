@@ -1,0 +1,27 @@
+.footer {
+    z-index: 10;
+
+    overflow-x: hidden;
+
+    position: relative;
+
+    background: url("../../assets/footer/background.png") center/cover no-repeat;
+}
+
+.footer__box {
+    padding: 50px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.footer__logo {
+    width: 60px;
+    height: auto;
+
+    color: white;
+
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    user-select: none;
+
+    -webkit-tap-highlight-color: transparent;
+
+    font-family: "Gotham Pro", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+
+    max-width: 1290px;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+@media (max-width: 932px) and (min-height: 320px) and (orientation: landscape) {
+    body {
+        display: none;
+    }
+}
+
+#root {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}

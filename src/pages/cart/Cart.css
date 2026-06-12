@@ -1,0 +1,136 @@
+.cart {
+    z-index: 9;
+
+    padding: 20px 0 75px;
+
+    position: relative;
+}
+
+.cart__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+    text-align: center;
+}
+
+.cart__title-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.cart__path {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #383838;
+
+    border-bottom: 1px solid transparent;
+
+    transition: all 0.1s ease;
+}
+
+@media (hover: hover) {
+    .cart__path:hover {
+        border-bottom: 1px solid #E0E0E0;
+
+        cursor: pointer;
+    }
+}
+
+@media (hover: none) {
+    .cart__path {
+        border-bottom: 1px solid #E0E0E0;
+
+        cursor: pointer;
+    }
+}
+
+.cart__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    color: #313131;
+
+    text-transform: uppercase;
+}
+
+.cart__cards {
+    width: 100%;
+    max-width: 960px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cart__total-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.cart__total {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    color: #313131;
+    text-transform: uppercase;
+}
+
+.cart__total-submit {
+    padding: 15px 25px;
+
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: white;
+
+    border: 1px solid #383838;
+    background: #383838;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+@media (hover: hover) {
+    .cart__total-submit:hover {
+        color: #383838;
+
+        border: 1px solid #383838;
+        background: white;
+    }
+}
+
+@media (hover: none) {
+    .cart__total-submit:hover {
+        color: #383838;
+
+        border: 1px solid #383838;
+        background: white;
+    }
+}
+
+@media (max-width: 760px) {
+    .cart {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .cart {
+        display: block;
+    }
+}

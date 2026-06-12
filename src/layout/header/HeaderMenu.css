@@ -1,0 +1,55 @@
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    cursor: pointer;
+}
+
+.header__menu-icon {
+    width: 30px;
+    height: 10px;
+
+    position: relative;
+}
+
+.header__menu-icon > span {
+    height: 2px;
+
+    position: absolute;
+
+    background: #383838;
+
+    transition: all 0.3s ease;
+}
+
+.header__menu-icon > span:first-child {
+    width: 30px;
+
+    top: 0;
+}
+
+.header__menu-icon > span:last-child {
+    width: 20px;
+
+    bottom: 0;
+}
+
+.header__menu-title {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 1.5em;
+    color: #383838;
+    text-transform: uppercase;
+}
+
+.header__menu-icon.active > span:first-child {
+    transform: rotate(30deg) translateY(5px);
+}
+
+.header__menu-icon.active > span:last-child {
+    width: 30px;
+
+    transform: rotate(-30deg) translateY(-4px);
+}

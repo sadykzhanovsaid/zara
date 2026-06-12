@@ -1,0 +1,45 @@
+.cartCard__counter {
+    width: 130px;
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+
+    border: 1px solid #D2D2D2;
+    background: transparent;
+}
+
+.cartCard__minus,
+.cartCard__plus {
+    width: 100%;
+    height: 100%;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #C4C4C4;
+
+    background: transparent;
+
+    cursor: pointer;
+}
+
+.cartCard__count {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #383838;
+}
+
+@media (max-width: 480px) {
+    .cartCard__counter {
+        width: 100%;
+        height: 36px;
+    }
+
+    .cartCard__count {
+        font-size: 10px;
+    }
+}

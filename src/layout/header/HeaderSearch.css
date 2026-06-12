@@ -1,0 +1,30 @@
+.header__search {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.header__search-title {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 1.5em;
+    color: #383838;
+    text-transform: uppercase;
+}
+
+.header__search-title > span {
+    letter-spacing: 0;
+}
+
+@media (max-width: 700px) {
+    .header__search {
+        display: none;
+    }
+}

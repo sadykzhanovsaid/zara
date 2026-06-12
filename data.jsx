@@ -1,0 +1,203 @@
+export const products = [
+    {
+        id: 1,
+        title: "Geometric Print Shirt",
+        description: "A classic-cut shirt made of a mixture of lyocell. Turn-down collar and short sleeves. Side slits at the bottom. Button-down.",
+        category: "shirt",
+        gender: "man",
+        price: 39.95,
+        colors: ["Sea Blue"],
+        sizes: ["S", "M", "L", "XL"],
+        images: [
+            "geometric print shirt/1.jpg",
+            "geometric print shirt/2.jpg",
+            "geometric print shirt/3.jpg",
+            "geometric print shirt/4.jpg",
+            "geometric print shirt/5.jpg",
+            "geometric print shirt/6.png",
+        ]
+    },
+    {
+        id: 2,
+        title: "Jacquard Shirt with Paisley Pattern",
+        description: "Loose-fitting shirt made of lightweight cotton. Turn-down collar, short sleeves. Button-down.",
+        category: "shirt",
+        gender: "man",
+        price: 39.95,
+        colors: ["White"],
+        sizes: ["S", "M", "L", "XL"],
+        images: [
+            "jacquard shirt with paisley pattern/1.jpg",
+            "jacquard shirt with paisley pattern/2.jpg",
+            "jacquard shirt with paisley pattern/3.jpg",
+            "jacquard shirt with paisley pattern/4.jpg",
+            "jacquard shirt with paisley pattern/5.jpg",
+            "jacquard shirt with paisley pattern/6.png",
+        ]
+    },
+    {
+        id: 3,
+        title: "Relaxed Fit Shirt with Flower Print and Washed Effect",
+        description: "Loose-fitting shirt made of diagonal cotton fabric. Turn-down collar, short sleeves. Chest patch pockets. Worn-in effect. Buttoned.",
+        category: "shirt",
+        gender: "man",
+        price: 39.95,
+        colors: ["Multicoloured"],
+        sizes: ["S", "M", "L"],
+        images: [
+            "relaxed fit shirt with flower print and washed effect/1.jpg",
+            "relaxed fit shirt with flower print and washed effect/2.jpg",
+            "relaxed fit shirt with flower print and washed effect/3.jpg",
+            "relaxed fit shirt with flower print and washed effect/4.jpg",
+            "relaxed fit shirt with flower print and washed effect/5.jpg",
+            "relaxed fit shirt with flower print and washed effect/6.png",
+        ]
+    },
+    {
+        id: 4,
+        title: "Flower Embroidered Shirt",
+        description: "Loose-fitting cotton shirt. Turn-down collar and short sleeves. Contrasting embroidery all over the surface of the product. Buttoned.",
+        category: "shirt",
+        gender: "man",
+        price: 39.95,
+        colors: ["Ecru"],
+        sizes: ["S", "M", "L", "XL"],
+        images: [
+            "flower embroidered shirt/1.jpg",
+            "flower embroidered shirt/2.jpg",
+            "flower embroidered shirt/3.jpg",
+            "flower embroidered shirt/4.jpg",
+            "flower embroidered shirt/5.jpg",
+            "flower embroidered shirt/6.png",
+        ]
+    },
+    {
+        id: 5,
+        title: "Streaming Shirt with an Abstract Print",
+        description: "Loose-fitting shirt made of viscose, lyocell, and 18% linen. Turn-down collar, short sleeves. Side slits at the bottom. Button-down.",
+        category: "shirt",
+        gender: "man",
+        price: 39.95,
+        colors: ["Brown and blue"],
+        sizes: ["S", "M", "L", "XL"],
+        images: [
+            "streaming shirt with an abstract print/1.jpg",
+            "streaming shirt with an abstract print/2.jpg",
+            "streaming shirt with an abstract print/3.jpg",
+            "streaming shirt with an abstract print/4.jpg",
+            "streaming shirt with an abstract print/5.jpg",
+            "streaming shirt with an abstract print/6.png",
+        ]
+    },
+]
+
+export const productsHero = [
+    {
+        id: 1,
+        title: "Geometric Print Shirt",
+        description: "A classic-cut shirt made of a mixture of lyocell. Turn-down collar and short sleeves. Side slits at the bottom. Button-down.",
+        category: "shirt",
+        gender: "man",
+        price: 39.95,
+        colors: ["Sea Blue"],
+        sizes: ["S", "M", "L", "XL"],
+        images: [
+            "geometric print shirt/1.jpg",
+            "geometric print shirt/2.jpg",
+            "geometric print shirt/3.jpg",
+            "geometric print shirt/4.jpg",
+            "geometric print shirt/5.jpg",
+            "geometric print shirt/6.png",
+        ]
+    },
+    {
+        id: 2,
+        title: "Jacquard Shirt with Paisley Pattern",
+        description: "Loose-fitting shirt made of lightweight cotton. Turn-down collar, short sleeves. Button-down.",
+        category: "shirt",
+        gender: "man",
+        price: 39.95,
+        colors: ["White"],
+        sizes: ["S", "M", "L", "XL"],
+        images: [
+            "jacquard shirt with paisley pattern/1.jpg",
+            "jacquard shirt with paisley pattern/2.jpg",
+            "jacquard shirt with paisley pattern/3.jpg",
+            "jacquard shirt with paisley pattern/4.jpg",
+            "jacquard shirt with paisley pattern/5.jpg",
+            "jacquard shirt with paisley pattern/6.png",
+        ]
+    },
+    {
+        id: 3,
+        title: "Relaxed Fit Shirt with Flower Print and Washed Effect",
+        description: "Loose-fitting shirt made of diagonal cotton fabric. Turn-down collar, short sleeves. Chest patch pockets. Worn-in effect. Buttoned.",
+        category: "shirt",
+        gender: "man",
+        price: 39.95,
+        colors: ["Multicoloured"],
+        sizes: ["S", "M", "L"],
+        images: [
+            "relaxed fit shirt with flower print and washed effect/1.jpg",
+            "relaxed fit shirt with flower print and washed effect/2.jpg",
+            "relaxed fit shirt with flower print and washed effect/3.jpg",
+            "relaxed fit shirt with flower print and washed effect/4.jpg",
+            "relaxed fit shirt with flower print and washed effect/5.jpg",
+            "relaxed fit shirt with flower print and washed effect/6.png",
+        ]
+    },
+    {
+        id: 4,
+        title: "Flower Embroidered Shirt",
+        description: "Loose-fitting cotton shirt. Turn-down collar and short sleeves. Contrasting embroidery all over the surface of the product. Buttoned.",
+        category: "shirt",
+        gender: "man",
+        price: 39.95,
+        colors: ["Ecru"],
+        sizes: ["S", "M", "L", "XL"],
+        images: [
+            "flower embroidered shirt/1.jpg",
+            "flower embroidered shirt/2.jpg",
+            "flower embroidered shirt/3.jpg",
+            "flower embroidered shirt/4.jpg",
+            "flower embroidered shirt/5.jpg",
+            "flower embroidered shirt/6.png",
+        ]
+    },
+    {
+        id: 6,
+        title: "Flowy fit shirt with an abstract print.",
+        description: "Loose-fit shirt made from viscose, lyocell, and 18% linen. Features a camp collar and short sleeves. Side slits at the hem. Button-up front fastening.",
+        category: "shirt",
+        gender: "man",
+        price: 39.95,
+        colors: ["Shades of Blue"],
+        sizes: ["S", "M", "L", "XL"],
+        images: [
+            "flowy fit shirt with an abstract prinе/1.jpg",
+            "flowy fit shirt with an abstract prinе/2.jpg",
+            "flowy fit shirt with an abstract prinе/3.jpg",
+            "flowy fit shirt with an abstract prinе/4.jpg",
+            "flowy fit shirt with an abstract prinе/5.jpg",
+            "flowy fit shirt with an abstract prinе/6.png",
+        ]
+    },
+    {
+        id: 5,
+        title: "Streaming Shirt with an Abstract Print",
+        description: "Loose-fitting shirt made of viscose, lyocell, and 18% linen. Turn-down collar, short sleeves. Side slits at the bottom. Button-down.",
+        category: "shirt",
+        gender: "man",
+        price: 39.95,
+        colors: ["Brown and blue"],
+        sizes: ["S", "M", "L", "XL"],
+        images: [
+            "streaming shirt with an abstract print/1.jpg",
+            "streaming shirt with an abstract print/2.jpg",
+            "streaming shirt with an abstract print/3.jpg",
+            "streaming shirt with an abstract print/4.jpg",
+            "streaming shirt with an abstract print/5.jpg",
+            "streaming shirt with an abstract print/6.png",
+        ]
+    }
+]

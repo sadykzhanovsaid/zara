@@ -1,0 +1,277 @@
+.stories {
+    z-index: 10;
+
+    padding: 20px 0 60px;
+
+    position: relative;
+}
+
+.stories__box {
+    padding: 0 160px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.stories__title-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.stories__path {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #383838;
+
+    border-bottom: 1px solid transparent;
+
+    transition: all 0.1s ease;
+}
+
+@media (hover: hover) {
+    .stories__path:hover {
+        border-bottom: 1px solid #E0E0E0;
+
+        cursor: pointer;
+    }
+}
+
+@media (hover: none) {
+    .stories__path {
+        border-bottom: 1px solid #E0E0E0;
+
+        cursor: pointer;
+    }
+}
+
+.stories__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    color: #313131;
+
+    text-transform: uppercase;
+}
+
+.stories__image {
+    width: 100%;
+    max-width: 300px;
+}
+
+.stories__card {
+    opacity: 0;
+
+    transform: translateY(60px);
+
+    transition: all 0.5s ease;
+}
+
+.stories__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.stories__card-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+
+    white-space: nowrap;
+}
+
+.stories__card-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: #383838;
+}
+
+.highVoltage {
+    display: flex;
+    align-items: end;
+
+    & > .stories__card-content {
+        margin-bottom: 130px;
+
+        transform: translateX(-80px);
+
+        & > .stories__card-subtitle {
+            text-align: end;
+        }
+    }
+}
+
+.tailoring {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+
+    & > .stories__card-content {
+        margin-top: 150px;
+
+        transform: translateX(60px);
+    }
+}
+
+.theTourist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > .stories__card-content {
+
+        & > .stories__card-subtitle {
+            text-align: center;
+        }
+    }
+}
+
+.beyondNature {
+    display: flex;
+    align-items: end;
+
+    & > .stories__card-content {
+        margin-bottom: 130px;
+
+        transform: translateX(-120px);
+
+        & > .stories__card-subtitle {
+            text-align: end;
+        }
+    }
+}
+
+.traveler {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+    & > .stories__card-content {
+        margin-top: 150px;
+
+        transform: translateX(60px);
+    }
+}
+
+@media (max-width: 1366px) {
+    .stories__box {
+        padding: 0 11.713vw;
+    }
+}
+
+@media (max-width: 760px) {
+    .stories {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .stories {
+        display: block;
+    }
+
+    .stories__box {
+        padding: 0;
+    }
+
+    .stories__image {
+        width: 140px;
+    }
+
+    .stories__cards {
+        gap: 40px;
+    }
+
+    .stories__card-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.15em;
+
+        white-space: normal;
+    }
+
+    .stories__card-subtitle {
+        display: none;
+    }
+
+    .highVoltage {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+
+        & > .stories__card-content {
+            margin-bottom: 0;
+
+            transform: translateX(0);
+        }
+    }
+
+    .tailoring {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+
+        & > .stories__card-content {
+            margin-top: 0;
+
+            transform: translateX(0);
+        }
+    }
+
+    .theTourist {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .beyondNature {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+
+        & > .stories__card-content {
+            margin-bottom: 0;
+
+            transform: translateX(0);
+        }
+
+        & > .stories__image {
+            order: 2;
+        }
+    }
+
+    .traveler {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+
+        & > .stories__card-content {
+            margin-top: 0;
+
+            transform: translateX(0);
+
+            order: 2;
+        }
+    }
+}
+
+.stories__card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
