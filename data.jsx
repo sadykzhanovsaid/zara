@@ -9,12 +9,12 @@ export const products = [
         colors: ["Sea Blue"],
         sizes: ["S", "M", "L", "XL"],
         images: [
-            "geometric print shirt/1.jpg",
-            "geometric print shirt/2.jpg",
-            "geometric print shirt/3.jpg",
-            "geometric print shirt/4.jpg",
-            "geometric print shirt/5.jpg",
-            "geometric print shirt/6.png",
+            "geometric print shirt/1.webp",
+            "geometric print shirt/2.webp",
+            "geometric print shirt/3.webp",
+            "geometric print shirt/4.webp",
+            "geometric print shirt/5.webp",
+            "geometric print shirt/6.webp",
         ]
     },
     {
@@ -27,12 +27,12 @@ export const products = [
         colors: ["White"],
         sizes: ["S", "M", "L", "XL"],
         images: [
-            "jacquard shirt with paisley pattern/1.jpg",
-            "jacquard shirt with paisley pattern/2.jpg",
-            "jacquard shirt with paisley pattern/3.jpg",
-            "jacquard shirt with paisley pattern/4.jpg",
-            "jacquard shirt with paisley pattern/5.jpg",
-            "jacquard shirt with paisley pattern/6.png",
+            "jacquard shirt with paisley pattern/1.webp",
+            "jacquard shirt with paisley pattern/2.webp",
+            "jacquard shirt with paisley pattern/3.webp",
+            "jacquard shirt with paisley pattern/4.webp",
+            "jacquard shirt with paisley pattern/5.webp",
+            "jacquard shirt with paisley pattern/6.webp",
         ]
     },
     {
@@ -45,12 +45,12 @@ export const products = [
         colors: ["Multicoloured"],
         sizes: ["S", "M", "L"],
         images: [
-            "relaxed fit shirt with flower print and washed effect/1.jpg",
-            "relaxed fit shirt with flower print and washed effect/2.jpg",
-            "relaxed fit shirt with flower print and washed effect/3.jpg",
-            "relaxed fit shirt with flower print and washed effect/4.jpg",
-            "relaxed fit shirt with flower print and washed effect/5.jpg",
-            "relaxed fit shirt with flower print and washed effect/6.png",
+            "relaxed fit shirt with flower print and washed effect/1.webp",
+            "relaxed fit shirt with flower print and washed effect/2.webp",
+            "relaxed fit shirt with flower print and washed effect/3.webp",
+            "relaxed fit shirt with flower print and washed effect/4.webp",
+            "relaxed fit shirt with flower print and washed effect/5.webp",
+            "relaxed fit shirt with flower print and washed effect/6.webp",
         ]
     },
     {
@@ -63,12 +63,12 @@ export const products = [
         colors: ["Ecru"],
         sizes: ["S", "M", "L", "XL"],
         images: [
-            "flower embroidered shirt/1.jpg",
-            "flower embroidered shirt/2.jpg",
-            "flower embroidered shirt/3.jpg",
-            "flower embroidered shirt/4.jpg",
-            "flower embroidered shirt/5.jpg",
-            "flower embroidered shirt/6.png",
+            "flower embroidered shirt/1.webp",
+            "flower embroidered shirt/2.webp",
+            "flower embroidered shirt/3.webp",
+            "flower embroidered shirt/4.webp",
+            "flower embroidered shirt/5.webp",
+            "flower embroidered shirt/6.webp",
         ]
     },
     {
@@ -81,12 +81,12 @@ export const products = [
         colors: ["Brown and blue"],
         sizes: ["S", "M", "L", "XL"],
         images: [
-            "streaming shirt with an abstract print/1.jpg",
-            "streaming shirt with an abstract print/2.jpg",
-            "streaming shirt with an abstract print/3.jpg",
-            "streaming shirt with an abstract print/4.jpg",
-            "streaming shirt with an abstract print/5.jpg",
-            "streaming shirt with an abstract print/6.png",
+            "streaming shirt with an abstract print/1.webp",
+            "streaming shirt with an abstract print/2.webp",
+            "streaming shirt with an abstract print/3.webp",
+            "streaming shirt with an abstract print/4.webp",
+            "streaming shirt with an abstract print/5.webp",
+            "streaming shirt with an abstract print/6.webp",
         ]
     },
     {
@@ -99,12 +99,12 @@ export const products = [
         colors: ["Shades of Blue"],
         sizes: ["S", "M", "L", "XL"],
         images: [
-            "flowy fit shirt with an abstract prinе/1.jpg",
-            "flowy fit shirt with an abstract prinе/2.jpg",
-            "flowy fit shirt with an abstract prinе/3.jpg",
-            "flowy fit shirt with an abstract prinе/4.jpg",
-            "flowy fit shirt with an abstract prinе/5.jpg",
-            "flowy fit shirt with an abstract prinе/6.png",
+            "flowy fit shirt with an abstract prinе/1.webp",
+            "flowy fit shirt with an abstract prinе/2.webp",
+            "flowy fit shirt with an abstract prinе/3.webp",
+            "flowy fit shirt with an abstract prinе/4.webp",
+            "flowy fit shirt with an abstract prinе/5.webp",
+            "flowy fit shirt with an abstract prinе/6.webp",
         ]
     },
 ]
@@ -120,12 +120,12 @@ export const productsHero = [
         colors: ["Sea Blue"],
         sizes: ["S", "M", "L", "XL"],
         images: [
-            "geometric print shirt/1.jpg",
-            "geometric print shirt/2.jpg",
-            "geometric print shirt/3.jpg",
-            "geometric print shirt/4.jpg",
-            "geometric print shirt/5.jpg",
-            "geometric print shirt/6.png",
+            "geometric print shirt/1.webp",
+            "geometric print shirt/2.webp",
+            "geometric print shirt/3.webp",
+            "geometric print shirt/4.webp",
+            "geometric print shirt/5.webp",
+            "geometric print shirt/6.webp",
         ]
     },
     {
@@ -138,12 +138,12 @@ export const productsHero = [
         colors: ["White"],
         sizes: ["S", "M", "L", "XL"],
         images: [
-            "jacquard shirt with paisley pattern/1.jpg",
-            "jacquard shirt with paisley pattern/2.jpg",
-            "jacquard shirt with paisley pattern/3.jpg",
-            "jacquard shirt with paisley pattern/4.jpg",
-            "jacquard shirt with paisley pattern/5.jpg",
-            "jacquard shirt with paisley pattern/6.png",
+            "jacquard shirt with paisley pattern/1.webp",
+            "jacquard shirt with paisley pattern/2.webp",
+            "jacquard shirt with paisley pattern/3.webp",
+            "jacquard shirt with paisley pattern/4.webp",
+            "jacquard shirt with paisley pattern/5.webp",
+            "jacquard shirt with paisley pattern/6.webp",
         ]
     },
     {
@@ -156,12 +156,12 @@ export const productsHero = [
         colors: ["Multicoloured"],
         sizes: ["S", "M", "L"],
         images: [
-            "relaxed fit shirt with flower print and washed effect/1.jpg",
-            "relaxed fit shirt with flower print and washed effect/2.jpg",
-            "relaxed fit shirt with flower print and washed effect/3.jpg",
-            "relaxed fit shirt with flower print and washed effect/4.jpg",
-            "relaxed fit shirt with flower print and washed effect/5.jpg",
-            "relaxed fit shirt with flower print and washed effect/6.png",
+            "relaxed fit shirt with flower print and washed effect/1.webp",
+            "relaxed fit shirt with flower print and washed effect/2.webp",
+            "relaxed fit shirt with flower print and washed effect/3.webp",
+            "relaxed fit shirt with flower print and washed effect/4.webp",
+            "relaxed fit shirt with flower print and washed effect/5.webp",
+            "relaxed fit shirt with flower print and washed effect/6.webp",
         ]
     },
     {
@@ -174,12 +174,12 @@ export const productsHero = [
         colors: ["Ecru"],
         sizes: ["S", "M", "L", "XL"],
         images: [
-            "flower embroidered shirt/1.jpg",
-            "flower embroidered shirt/2.jpg",
-            "flower embroidered shirt/3.jpg",
-            "flower embroidered shirt/4.jpg",
-            "flower embroidered shirt/5.jpg",
-            "flower embroidered shirt/6.png",
+            "flower embroidered shirt/1.webp",
+            "flower embroidered shirt/2.webp",
+            "flower embroidered shirt/3.webp",
+            "flower embroidered shirt/4.webp",
+            "flower embroidered shirt/5.webp",
+            "flower embroidered shirt/6.webp",
         ]
     },
     {
@@ -192,12 +192,12 @@ export const productsHero = [
         colors: ["Shades of Blue"],
         sizes: ["S", "M", "L", "XL"],
         images: [
-            "flowy fit shirt with an abstract prinе/1.jpg",
-            "flowy fit shirt with an abstract prinе/2.jpg",
-            "flowy fit shirt with an abstract prinе/3.jpg",
-            "flowy fit shirt with an abstract prinе/4.jpg",
-            "flowy fit shirt with an abstract prinе/5.jpg",
-            "flowy fit shirt with an abstract prinе/6.png",
+            "flowy fit shirt with an abstract prinе/1.webp",
+            "flowy fit shirt with an abstract prinе/2.webp",
+            "flowy fit shirt with an abstract prinе/3.webp",
+            "flowy fit shirt with an abstract prinе/4.webp",
+            "flowy fit shirt with an abstract prinе/5.webp",
+            "flowy fit shirt with an abstract prinе/6.webp",
         ]
     },
     {
@@ -210,12 +210,12 @@ export const productsHero = [
         colors: ["Brown and blue"],
         sizes: ["S", "M", "L", "XL"],
         images: [
-            "streaming shirt with an abstract print/1.jpg",
-            "streaming shirt with an abstract print/2.jpg",
-            "streaming shirt with an abstract print/3.jpg",
-            "streaming shirt with an abstract print/4.jpg",
-            "streaming shirt with an abstract print/5.jpg",
-            "streaming shirt with an abstract print/6.png",
+            "streaming shirt with an abstract print/1.webp",
+            "streaming shirt with an abstract print/2.webp",
+            "streaming shirt with an abstract print/3.webp",
+            "streaming shirt with an abstract print/4.webp",
+            "streaming shirt with an abstract print/5.webp",
+            "streaming shirt with an abstract print/6.webp",
         ]
     }
 ]

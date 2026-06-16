@@ -54,7 +54,7 @@ function Menu({
                         </div>
 
                         <div className="menu__links-inline">
-                            <div className="menu__link stories">
+                            <div className="menu__link stories-p">
                                 <Link to="/stories">
                                     <p
                                         className="menu__link-title"

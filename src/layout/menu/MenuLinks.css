@@ -80,13 +80,13 @@
     transform: translateX(0);
 }
 
-.menu__link.stories {
+.menu__link.stories-p {
     transform: translateX(-100%);
 
     transition: transform 1s ease;
 }
 
-.menu.active .menu__link.stories {
+.menu.active .menu__link.stories-p {
     transform: translateX(0);
 }
 
@@ -115,7 +115,7 @@
     .menu__link.woman,
     .menu__link.man,
     .menu__link.kids,
-    .menu__link.stories,
+    .menu__link.stories-p,
     .menu__link.sale {
         padding: 0;
 
@@ -136,7 +136,7 @@
     .menu__link.woman,
     .menu__link.man,
     .menu__link.kids,
-    .menu__link.stories,
+    .menu__link.stories-p,
     .menu__link.sale {
         padding: 0;
 
@@ -154,7 +154,7 @@
     .menu__link.woman,
     .menu__link.man,
     .menu__link.kids,
-    .menu__link.stories,
+    .menu__link.stories-p,
     .menu__link.sale {
         text-align: start;
     }

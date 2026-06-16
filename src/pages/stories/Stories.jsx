@@ -2,12 +2,6 @@ import React, {useEffect} from "react"
 import "./Stories.css"
 import {Link} from "react-router-dom"
 
-import highVoltage from "../../assets/stories/1.png"
-import tailoring from "../../assets/stories/2.png"
-import theTourist from "../../assets/stories/3.png"
-import beyondNature from "../../assets/stories/4.png"
-import traveler from "../../assets/stories/5.png"
-
 function Stories() {
 
     useEffect(() => {
@@ -49,7 +43,7 @@ function Stories() {
 
                     <div className="stories__cards">
                         <div className="stories__card highVoltage">
-                            <img src={highVoltage} alt="HIGH VOLTAGE" className="stories__image"/>
+                            <img src="/public/stories/1.webp" alt="HIGH VOLTAGE" className="stories__image"/>
                             <div className="stories__card-content">
                                 <p className="stories__card-title">HIGH VOLTAGE</p>
                                 <p className="stories__card-subtitle">Spring-summer. Woman 2019.</p>
@@ -60,17 +54,17 @@ function Stories() {
                                 <p className="stories__card-title">TAILORING</p>
                                 <p className="stories__card-subtitle">Spring-summer. Man. All time.</p>
                             </div>
-                            <img src={tailoring} alt="TAILORING" className="stories__image"/>
+                            <img src="/public/stories/2.webp" alt="TAILORING" className="stories__image"/>
                         </div>
                         <div className="stories__card theTourist">
-                            <img src={theTourist} alt="THE TOURIST" className="stories__image"/>
+                            <img src="/public/stories/3.webp" alt="THE TOURIST" className="stories__image"/>
                             <div className="stories__card-content">
                                 <p className="stories__card-title">THE TOURIST</p>
                                 <p className="stories__card-subtitle">Spring-summer. Woman 2019.</p>
                             </div>
                         </div>
                         <div className="stories__card beyondNature">
-                            <img src={beyondNature} alt="BEYOND NATURE" className="stories__image"/>
+                            <img src="/public/stories/4.webp" alt="BEYOND NATURE" className="stories__image"/>
                             <div className="stories__card-content">
                                 <p className="stories__card-title">BEYOND NATURE</p>
                                 <p className="stories__card-subtitle">Spring-summer. TRF 2019.</p>
@@ -81,7 +75,7 @@ function Stories() {
                                 <p className="stories__card-title">TRAVELER</p>
                                 <p className="stories__card-subtitle">Spring-summer. Man 2019.</p>
                             </div>
-                            <img src={traveler} alt="Traveler" className="stories__image"/>
+                            <img src="/public/stories/5.webp" alt="Traveler" className="stories__image"/>
                         </div>
                     </div>
                 </div>
